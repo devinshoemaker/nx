@@ -270,7 +270,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "yarn checkcommit && yarn documentation && pretty-quick --check"
+      "pre-push": "yarn checkcommit && yarn documentation && pretty-quick --check --pattern '**/*.{ts,js,json,css,scss,md}' '!**/{__name__,__directory__}/**'"
     }
   }
 }
