@@ -64,6 +64,12 @@
       "description": "Generates a workspace schematic"
     },
 
+    "workspace-layout": {
+      "factory": "./src/schematics/workspace-layout/workspace-layout",
+      "schema": "./src/schematics/workspace-layout/schema.json",
+      "description": "Updates the workspace layout"
+    },
+
     "run-commands": {
       "factory": "./src/schematics/run-commands/run-commands",
       "schema": "./src/schematics/run-commands/schema.json",

@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "SchematicsNxWorkspaceLayout",
+  "title": "Update the workspace layout",
+  "type": "object",
+  "properties": {
+    "appsDir": {
+      "description": "Applications directory",
+      "type": "string",
+      "x-prompt": "What directory would you like to use for applications in this workspace?"
+    },
+    "libsDir": {
+      "description": "Libraries directory",
+      "type": "boolean",
+      "x-prompt": "What directory would you like to use for libraries in this workspace?"
+    }
+  },
+  "required": []
+}
